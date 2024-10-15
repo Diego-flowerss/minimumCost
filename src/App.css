@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* La cuadrícula se ajustará al tamaño de la matriz */
+.grid-container.dynamic-grid {
+  grid-template-columns: repeat(auto-fit, 60px);
+}
+
+input {
+  width: 50px;
+  padding: 5px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 20px 20px;
+  cursor: pointer;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #cfc4c4;
+  padding: 10px;
+  text-align: center;
+}
